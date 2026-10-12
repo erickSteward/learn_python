@@ -110,6 +110,35 @@ print(message[::2]) # Pto sfn
 developer = "Jessica"
 print(len(developer)) # 7
 
+# Working with the in Operator
+# -> in Operator: This returns a boolean that specifies whether the character or characters exist in the string or not:
+
+my_str = 'Hello world'
+
+print('Hello' in my_str) # True
+print('hey' in my_str) # False
+print('hi' in my_str) # False
+print('e' in my_str) # True
+print('f' in my_str) # False
+
+
+# Common String Methods
+# -> str.upper(): This returns a new string with all characters converted to uppercase:
+
+developer = 'Jessica'
+print(developer.upper()) # JESSICA
+
+# -> str.lower(): This returns a new string with all charaters coverted to lowercase:
+
+developer = 'Jessica'
+print(developer.lower()) # jessica
+
+# -> str.strip(): This returns a copy of the string with specified leading and trailing charater removed(if no argument is passed to the method, it removes leading and trailing whitespaces).
+
+greeting = '  hello world  '
+trimmed_my_str = greeting.strip()
+print(trimmed_my_str) # 'hello world'
+
 
 
 
